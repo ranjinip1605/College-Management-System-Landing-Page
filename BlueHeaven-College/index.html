@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueHeaven Institute of Technology</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <h2>BHIT</h2>
+            <span>BlueHeaven Institute of Technology</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#admissions">Admissions</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="overlay">
+
+            <h1>BlueHeaven Institute of Technology</h1>
+
+            <h3>Endure, Embrace, Evolve</h3>
+
+            <p>
+                Empowering Future Innovators Through Excellence in
+                Education, Technology & Leadership
+            </p>
+
+            <div class="hero-stats">
+                <span>Established 2007</span>
+                <span>4500+ Students</span>
+                <span>95% Placement</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#admissions" class="btn">Apply Now</a>
+                <a href="#courses" class="btn btn-secondary">Explore Courses</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CAMPUS SHOWCASE -->
+
+    <section class="campus-showcase">
+
+        <h2 class="section-title">Our Campus</h2>
+
+        <div class="campus-grid">
+
+            <div class="campus-card">
+                <img src="images/campus-main.jpeg" alt="">
+                <h3>Main Academic Block</h3>
+            </div>
+
+            <div class="campus-card">
+                <img src="images/library.jpeg" alt="">
+                <h3>Central Library</h3>
+            </div>
+
+            <div class="campus-card">
+                <img src="images/ai-lab.jpeg" alt="">
+                <h3>AI & Research Lab</h3>
+            </div>
+
+            <div class="campus-card">
+                <img src="images/sports-arena.jpeg" alt="">
+                <h3>Sports Complex</h3>
+            </div>
+
+            <div class="campus-card">
+                <img src="images/hostel.jpeg" alt="">
+                <h3>Student Hostel</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about section" id="about">
+
+        <div class="about-image">
+            <img src="images/campus-main.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+
+            <h2>About BlueHeaven Institute of Technology</h2>
+
+            <p>
+                BlueHeaven Institute of Technology (BHIT) is a premier
+                engineering institution established in 2007 with a vision
+                to create future-ready professionals through innovation,
+                excellence and leadership.
+            </p>
+
+            <div class="about-boxes">
+
+                <div class="box">
+                    <h4>Vision</h4>
+                    <p>
+                        To become a globally recognized center of excellence
+                        in technical education and research.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h4>Mission</h4>
+                    <p>
+                        To empower students through quality education,
+                        innovation and industry-focused learning.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- STATS -->
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="4500">0</h2>
+            <p>Total Students</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="24">0</h2>
+            <p>Courses Offered</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="19">0</h2>
+            <p>Years of Excellence</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="95">0</h2>
+            <p>Placement Rate</p>
+        </div>
+
+    </section>
+
+    <!-- COURSES -->
+
+    <section class="courses section" id="courses">
+
+        <h2 class="section-title">Courses Offered</h2>
+
+        <div class="filters">
+
+            <button onclick="filterSelection('all')">All</button>
+            <button onclick="filterSelection('engineering')">Engineering</button>
+            <button onclick="filterSelection('arts')">Arts</button>
+            <button onclick="filterSelection('commerce')">Commerce</button>
+
+        </div>
+
+        <div class="course-container">
+
+            <div class="course-card engineering">
+                <h3>Computer Science Engineering</h3>
+                <p>4 Years</p>
+            </div>
+
+            <div class="course-card engineering">
+                <h3>Artificial Intelligence & Data Science</h3>
+                <p>4 Years</p>
+            </div>
+
+            <div class="course-card engineering">
+                <h3>Electronics & Communication Engineering</h3>
+                <p>4 Years</p>
+            </div>
+
+            <div class="course-card engineering">
+                <h3>Mechanical Engineering</h3>
+                <p>4 Years</p>
+            </div>
+
+            <div class="course-card arts">
+                <h3>English Literature</h3>
+                <p>3 Years</p>
+            </div>
+
+            <div class="course-card commerce">
+                <h3>B.Com General</h3>
+                <p>3 Years</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FACILITIES -->
+
+    <section class="facilities section" id="facilities">
+
+        <h2 class="section-title">Campus Facilities</h2>
+
+        <div class="facility-container">
+
+            <div class="facility-card">
+                <span>📚</span>
+                <h3>Library</h3>
+                <p>Modern Digital Library</p>
+            </div>
+
+            <div class="facility-card">
+                <span>💻</span>
+                <h3>Advanced Labs</h3>
+                <p>Industry Standard Laboratories</p>
+            </div>
+
+            <div class="facility-card">
+                <span>🏆</span>
+                <h3>Sports Arena</h3>
+                <p>Indoor & Outdoor Sports</p>
+            </div>
+
+            <div class="facility-card">
+                <span>🏠</span>
+                <h3>Hostel</h3>
+                <p>Safe Accommodation</p>
+            </div>
+
+            <div class="facility-card">
+                <span>🍴</span>
+                <h3>Cafeteria</h3>
+                <p>Healthy & Hygienic Food</p>
+            </div>
+
+            <div class="facility-card">
+                <span>📶</span>
+                <h3>Wi-Fi Campus</h3>
+                <p>High-Speed Internet</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ADMISSIONS -->
+
+    <section class="admissions section" id="admissions">
+
+        <h2 class="section-title">Admissions Open 2026</h2>
+
+        <table id="courseTable">
+
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Course</th>
+                    <th onclick="sortTable(1)">Duration</th>
+                    <th onclick="sortTable(2)">Annual Fee</th>
+                    <th onclick="sortTable(3)">Seats</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>B.E CSE</td>
+                    <td>4 Years</td>
+                    <td>120000</td>
+                    <td>120</td>
+                </tr>
+
+                <tr>
+                    <td>B.Tech AI & DS</td>
+                    <td>4 Years</td>
+                    <td>135000</td>
+                    <td>90</td>
+                </tr>
+
+                <tr>
+                    <td>B.E ECE</td>
+                    <td>4 Years</td>
+                    <td>110000</td>
+                    <td>90</td>
+                </tr>
+
+                <tr>
+                    <td>B.Com</td>
+                    <td>3 Years</td>
+                    <td>55000</td>
+                    <td>120</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <button class="apply-btn">Apply Now</button>
+
+    </section>
+
+    <!-- GALLERY -->
+
+    <section class="gallery section" id="gallery">
+
+        <h2 class="section-title">Campus Gallery</h2>
+
+        <div class="gallery-container">
+
+            <img src="images/campus-main.jpeg" onclick="openLightbox(this.src)">
+            <img src="images/library.jpeg" onclick="openLightbox(this.src)">
+            <img src="images/ai-lab.jpeg" onclick="openLightbox(this.src)">
+            <img src="images/sports-arena.jpeg" onclick="openLightbox(this.src)">
+            <img src="images/hostel.jpeg" onclick="openLightbox(this.src)">
+            <img src="images/campus-main.jpeg" onclick="openLightbox(this.src)">
+
+        </div>
+
+    </section>
+
+    <!-- LIGHTBOX -->
+
+    <div id="lightbox">
+        <img id="lightbox-img">
+    </div>
+
+    <!-- CONTACT -->
+
+    <section class="contact section" id="contact">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>BlueHeaven Institute of Technology</h3>
+
+                <p>📍 Blue Valley Road, Green City, Chennai – 600101</p>
+
+                <p>📞 +91 9159880928</p>
+
+                <p>📧 info@blueheavenit.edu</p>
+
+                <iframe
+                    src="https://maps.google.com/maps?q=chennai&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+
+            </div>
+
+            <form id="contactForm">
+
+                <input type="text" id="name" placeholder="Your Name">
+
+                <input type="email" id="email" placeholder="Your Email">
+
+                <input type="text" placeholder="Subject">
+
+                <textarea id="message" placeholder="Message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>BlueHeaven Institute of Technology</h3>
+
+        <p>Building Future Leaders Since 2007</p>
+
+        <p>© 2026 BHIT. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
